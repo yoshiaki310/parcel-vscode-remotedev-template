@@ -1,0 +1,12 @@
+{
+    "name": "parcel - vue - TypeScript : vscode-remote environment",
+    "dockerFile": "Dockerfile",
+    "appPort": [1234,5050],
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "peakchen90.vue-beautify",
+        "octref.vetur",
+      ],
+    "postCreateCommand": "npm install"
+}

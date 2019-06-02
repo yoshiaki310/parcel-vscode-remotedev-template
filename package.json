@@ -1,0 +1,28 @@
+{
+  "name": "parcel-vue-typescript-environment-4-vscode-remotedev",
+  "version": "0.0.1",
+  "description": "parcel-vue-TypeScript environment for vscode-remotedev",
+  "author": "Yoshiaki Satoh <yosihaki.satoh@gmail.com>",
+  "main": "index.html",
+  "private": true,
+  "scripts": {
+    "serve": "parcel src/index.html --hmr-port 5050 --hmr-hostname localhost",
+    "build": "parcel build src/index.html --public-url ."
+  },
+  "dependencies": {
+    "vue-property-decorator": "^8.1.1"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.3",
+    "typescript": "^3.4.5",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify": "^1.5.14",
+    "vuetify-loader": "^1.2.2",
+    "@vue/component-compiler-utils": "^3.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
